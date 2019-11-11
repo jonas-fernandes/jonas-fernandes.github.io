@@ -1,0 +1,52 @@
+
+body{
+    text-align: center;
+    font-family: 'Spirax', cursive;
+    background-image: url("https://www.publicdomainpictures.net/pictures/230000/nahled/wallpaper-15016064880Iw.jpg");
+     background-repeat:no-repeat;
+     background-size: cover;
+}
+
+h2{
+    font-size: 80px;
+    color:#FFD700;
+}
+
+.image{
+   border-radius: 25px;
+   height: 350px;
+}
+
+
+h3{ font-size: 50px;
+    color: #f0f2f5;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 30px;
+    color:  #f0f2f5;
+}
+
+.gameBoard{
+    /* border: 2px solid white; */
+    padding: -20px;
+    display: flex;
+    justify-content: center;
+    color:  #f0f2f5;
+    font-size: 70px;
+}
+
+td{
+    border: 2px solid white;
+    height: 200px;
+    width: 200px;
+}
+td:hover{
+    font-size:50px;
+    background-color:#FFD700;
+}
+footer{
+    color: #f0f2f5;
+    font-size: 20px;
+}

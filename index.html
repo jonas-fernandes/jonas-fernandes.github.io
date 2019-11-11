@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css?family=Spirax&display=swap" rel="stylesheet">
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <title >Game</title>
+        <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2019/03/16/07/55/pirates-of-the-4058616_960_720.jpg">
+        <link rel="stylesheet" href="treasurehunt.css">
+    </head>
+
+    <body>
+        <h2>Welcome to Treasure Hunt!</h2>
+
+        <img class="image" src="https://cdn.pixabay.com/photo/2019/03/16/07/55/pirates-of-the-4058616_960_720.jpg" height=300px>
+
+        <h3>Game Rules</h3>
+
+        <ul>
+             <li>Try to find the 🏆 to win!</li>
+             <li>Avoid ☠️ or face the consequences.</li>
+             <li>If you run into 😐, try again!</li>
+             <li>You have 4 tries.</li>
+             <li>Good luck!!</li>
+        </ul>
+
+        <div class="gameBoard">
+            <table>
+                <tr>
+                    <td id="1" onclick="tableClick(1)">?</td>
+                    <td id="2" onclick="tableClick(2)">?</td>
+                    <td id="3" onclick="tableClick(3)">?</td>
+                    <td id="4" onclick="tableClick(4)">?</td>
+                </tr>
+                <tr>
+                    <td id="5" onclick="tableClick(5)">?</td>
+                    <td id="6" onclick="tableClick(6)">?</td>
+                    <td id="7" onclick="tableClick(7)">?</td>
+                    <td id="8" onclick="tableClick(8)">?</td>
+                </tr>
+            </table>
+        </div>
+
+        <button type="button" onclick="location.reload()" style="width:200px">Restart the Game</button>
+
+        <button type="button" name="Go to top" style="width:200px">Go to top</button>
+
+        <hr>
+
+        <footer id="game"> Aizada, Jonas, and Ofrey</footer>
+
+        <script type="text/javascript" src="treasurehunt.js"></script>
+    </body>
+</html>
